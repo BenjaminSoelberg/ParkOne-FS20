@@ -28,6 +28,12 @@ Extract the firmware from a JTAG-locked MSP430F6721A using voltage glitching and
 
 ---
 
+## The victim
+
+![the victim](images/park-one-fs20.jpg)
+
+---
+
 ## 📦 Firmware Dump
 
 Extracted firmware files:
