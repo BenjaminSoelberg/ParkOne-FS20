@@ -4,6 +4,12 @@ Firmware extraction and analysis of the **ParkOne park·n·go FS20** parking clo
 
 ---
 
+## Summary
+
+This project demonstrates successful firmware extraction from a permanently JTAG-locked MSP430F6721A using voltage glitch fault injection. The attack targets the BSL authentication mechanism and bypasses memory protection via precisely timed glitch.
+
+---
+
 ## 📖 Preface
 
 The ParkOne FS20 parking clock is built around the MSP430F6721A microcontroller.
@@ -28,7 +34,7 @@ Extract the firmware from a JTAG-locked MSP430F6721A using voltage glitching and
 
 ---
 
-## The victims
+## The Victims
 
 ![the victim](images/park-one-fs20.jpg)
 
@@ -52,8 +58,8 @@ Glitching was used to bypass protection mechanisms and gain access to restricted
 Additional tools:
 
 * Saleae Logic Analyzer - For signal analysis
-* Rasberry Pi Pico Trigger board - handles timing and communication with the target
-* Custom switch board - poor mans bread board
+* Raspberry Pi Pico Trigger board - handles timing and communication with the target
+* Custom switch board - poor man's breadboard
 * Breakout board - with the MSP430F6721A target
 
 ---
@@ -62,7 +68,7 @@ Additional tools:
 
 ### Hardware Setup
 
-**Logic alyzer, Rasberry Pi Pico Trigger board, switch board  &  MSP430F6721A board**
+**Logic analyzer, Raspberry Pi Pico Trigger board, switch board  &  MSP430F6721A board**
 
 ![fault-injection-setup](images/fault-injection-setup.jpg)
 
